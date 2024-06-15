@@ -1,0 +1,10 @@
+:root {
+    --h2-color: orange;
+    --h3-color: green;
+}
+
+.theme-dark {
+    --h1-color: rgb(210, 244, 15);
+    --h2-color: rgb(237, 84, 188);
+    --h3-color: rgb(79, 189, 211);
+}

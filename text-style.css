@@ -1,0 +1,38 @@
+/* Change Text Color */
+.theme-dark {
+    --text-normal: rgb(89, 214, 61);
+}
+
+/* Strong text in edit mode */
+.theme-dark .cm-strong {
+    color: #3e96e3 !important;
+    font-size: 1.1em
+}
+
+/* Strong text in reading mode */
+.theme-dark strong {
+    color: #3e96e3 !important;
+    font-size: 1.1em
+}
+
+/* Italic text in edit mode */
+.theme-dark .cm-em {
+    color: #f05acb !important;
+    font-size: 1.1em
+}
+
+/* Italic text in reading mode */
+.theme-dark em {
+    color: #f05acb !important;
+    font-size: 1.1em
+}
+
+/* Highlighted text in edit mode */
+.theme-dark .cm-highlight {
+    font-size: 1.1em
+}
+
+/* Highlighted text in reading mode */
+.theme-dark mark {
+    font-size: 1.1em
+}

@@ -1,0 +1,19 @@
+.theme-dark .cm-hmd-internal-link .cm-underline {
+    color: rgb(248, 218, 19);
+}
+
+.theme-dark .internal-link {
+    color: rgb(248, 218, 19);
+}
+
+.theme-dark .cm-link .cm-underline {
+    color: yellow;
+}
+
+.theme-dark .cm-url .cm-underline {
+    color: yellow;
+}
+
+.theme-dark .external-link {
+    color: yellow;
+}

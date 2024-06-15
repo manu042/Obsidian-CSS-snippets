@@ -1,0 +1,35 @@
+.theme-dark {
+    --code-size: 1.1em;
+}
+
+/* Codeblock - edit view */
+.theme-dark .cm-hmd-codeblock {
+    color: rgb(86, 234, 148);
+    font-family: monospace !important;
+    filter: saturate(1.5);
+}
+
+/* Inline Code - edit view */
+.theme-dark .cm-inline-code {
+    color: rgb(86, 234, 148) !important;
+    font-size: 1.1em !important;
+    filter: saturate(1.5);
+}
+
+/* Code - reading view */
+.theme-dark code {
+    color: rgb(8, 213, 11) !important;
+    font-family: monospace !important;
+    filter: saturate(1.5);
+}
+
+/* Edit Code Button - edit view */
+.theme-dark .edit-block-button {
+    color: red !important;
+}
+
+/* Copy Code Button - edit view */
+.theme-dark .code-block-flair {
+    color: rgb(238, 113, 36) !important;
+    filter: saturate(1.5);
+}

@@ -1,0 +1,10 @@
+.theme-dark {
+    --hr-color: rgb(250, 132, 43);
+    --hr-thickness: 0.2em
+}
+
+/* Horizontal rule in reading view*/
+hr {
+    margin-top: -0.5em;
+    margin-bottom: -0.2em;
+}

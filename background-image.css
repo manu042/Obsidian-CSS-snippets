@@ -1,5 +1,9 @@
 /* CSS snippet only applies to desktop devices */
 @media (min-width: 800px) {
+    .theme-dark {
+        filter: brightness(105%);
+    }
+    
     .workspace {
         background-size: cover;
         /* background-position: center; */

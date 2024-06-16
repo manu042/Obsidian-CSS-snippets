@@ -1,0 +1,62 @@
+.theme-dark .callout {
+    color: rgb(235, 235, 235);
+    border: solid;
+    border-width: 2px;
+}
+
+.callout-title-inner {
+    font-weight: bold;
+}
+
+.theme-dark .callout[data-callout="note"] {
+    border-color: rgb(28, 82, 219);
+
+}
+
+.theme-dark .callout[data-callout="info"] {
+    border-color: rgb(28, 82, 219);
+}
+
+.theme-dark .callout[data-callout="todo"] {
+    border-color: rgb(28, 82, 219);
+}
+
+.theme-dark .callout[data-callout="abstract"] {
+    border-color: rgb(1, 191, 188);
+}
+
+.theme-dark .callout[data-callout="tip"] {
+    border-color: rgb(1, 191, 188);
+}
+
+.theme-dark .callout[data-callout="tldr"] {
+    border-color: rgb(1, 191, 188);
+}
+
+.theme-dark .callout[data-callout="success"] {
+    border-color: rgb(8, 185, 78);
+}
+
+.theme-dark .callout[data-callout="question"] {
+    border-color: rgb(236, 118, 0);
+}
+
+.theme-dark .callout[data-callout="warning"] {
+    border-color: rgb(236, 118, 0);
+}
+
+.theme-dark .callout[data-callout="fail"] {
+    border-color: rgb(234, 49, 71);
+}
+
+.theme-dark .callout[data-callout="error"] {
+    border-color: rgb(234, 49, 71);
+}
+
+.theme-dark .callout[data-callout="bug"] {
+    border-color: rgb(234, 49, 71);
+}
+
+.theme-dark .callout[data-callout="example"] {
+    border-color: rgb(120, 82, 238);
+}

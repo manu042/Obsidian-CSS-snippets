@@ -1,33 +1,33 @@
 /* Math Block - edit view */
 :where(.theme-dark) :where(.workspace-leaf-content[data-mode="source"]) .math.math-block>mjx-container>mjx-math.MJX-TEX {
+    color: rgb(240, 240, 240);
     font-size: 1.4em;
-    color: #f7e8f2;
-    border: solid;
-    border-color: rgb(146, 75, 75);
-    padding: 40px;
-    font-family: monospace !important;
-    font-weight: bold;
+    padding: 15px 40px;
+    background-color: rgb(23, 26, 35);
 }
 
 /* Math Block - reading view */
 :where(.theme-dark) :where(.workspace-leaf-content[data-mode="preview"]) .math.math-block>mjx-container>mjx-math.MJX-TEX {
+    color: rgb(240, 240, 240);
     font-size: 1.4em;
-    color: #f7e8f2;
-    border: solid;
-    border-color: rgb(146, 75, 75);
-    padding: 40px;
-    font-family: monospace !important;
-    font-weight: bold;
+    padding: 15px 40px;
+    background-color: rgb(23, 26, 35);
 }
 
 /* Math inline - edit view */
 :where(.theme-dark) :where(.workspace-leaf-content[data-mode="source"]) span.math>mjx-container>mjx-math.MJX-TEX {
-    font-size: 1.2em;
-    color: #f7e8f2;
+    color: rgb(240, 240, 240);
+    font-size: 130%;
+    font-family: Verdana;
+    padding: 2px 4px;
+    background-color: rgb(23, 26, 35);
 }
 
 /* Math inline - reading view */
 :where(.theme-dark) :where(.workspace-leaf-content[data-mode="preview"]) span.math.math-inline>mjx-container>mjx-math.MJX-TEX {
-    font-size: 1.2em;
-    color: #f7e8f2;
+    color: rgb(240, 240, 240);
+    font-size: 130%;
+    font-family: Verdana;
+    padding: 2px 4px;
+    background-color: rgb(23, 26, 35);
 }
